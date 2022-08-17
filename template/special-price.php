@@ -16,7 +16,7 @@ $in_cart=$Cart->getCartId($product->getData('cart'));
       <div class="container px-2">
         <h4 class="font-rubik font-size-20">Special Price</h4>
         <div id="filter" class="button-group text-right font-baloo font-size-16">
-          <button class="btn is-checked" data-filter="*">All Brands</button>
+          <button class="btn is-checked" data-filter="">All Brands</button>
           <?php
 array_map(function($brand){
   printf(' <button class="btn" data-filter="%s">%s</button>',$brand,$brand);
